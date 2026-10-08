@@ -55,8 +55,8 @@ object AutoClickerConfig {
     var whitelist: Boolean by STORAGE.boolean("whitelist", false)
 
     @JvmStatic
-    val set1: AbstractJsonStore.Value<MutableSet<String>> = STORAGE.mutableSet("left", Codec.STRING)
+    val set1: AbstractJsonStore.Value<MutableSet<String>> = STORAGE.mutableSet("left_whitelist", Codec.STRING)
 
     @JvmStatic
-    val set2: AbstractJsonStore.Value<MutableSet<String>> = STORAGE.mutableSet("right", Codec.STRING)
+    val set2: AbstractJsonStore.Value<MutableSet<String>> = STORAGE.mutableSet("right_whitelist", Codec.STRING)
 }
