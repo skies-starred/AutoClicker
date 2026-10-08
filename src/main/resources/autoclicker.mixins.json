@@ -1,0 +1,10 @@
+{
+  "required": false,
+  "package": "foo.starred.autoclicker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "foo.starred.autoclicker.mixin.loader.AutoClickerModMixinLoaderPlugin",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

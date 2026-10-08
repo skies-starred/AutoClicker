@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "A very awesome QoL mod.",
+  "authors": [
+    "Starred"
+  ],
+  "contact": {},
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      {
+        "value": "foo.starred.autoclicker.AutoClicker",
+        "adapter": "kotlin"
+      }
+    ]
+  },
+  "mixins": [
+    "${id}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "${minecraft}"
+  }
+}

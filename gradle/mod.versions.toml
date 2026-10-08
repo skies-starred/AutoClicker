@@ -1,0 +1,5 @@
+[versions]
+id = "autoclicker"
+name = "AutoClicker"
+version = "0.0.1"
+group = "foo.starred"
